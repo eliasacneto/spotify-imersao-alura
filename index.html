@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Imersão</title>
+  <link rel="stylesheet" href="./src/reset.css">
+  <link rel="stylesheet" href="./src/vars.css">
+  <link rel="stylesheet" href="./src/main-content.css">
+  <link rel="stylesheet" href="./src/sidebar-footer.css">
+  <script src="https://kit.fontawesome.com/1a827209e1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <nav class="sidebar__navigation">
+      <div class="logo">
+        <a href="#">
+          <img src="./src/assets/icons/logo-spotify.png" alt="logo">
+        </a>
+      </div>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-home"></i> Início</a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Buscar</a></li>
+      </ul>
+    </nav>
+    <div class="library">
+      <div class="library__content">
+        <button class="library__button">
+          <i class="fa-solid fa-book"></i> Sua biblioteca
+        </button>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <section class="section-playlist">
+        <div class="section-playlist__content">
+          <span class="text title"> Crie sua primeira playlist</span>
+          <span class="text subtitle">É fácil, vamos te ajudar</span>
+          <button class="section-playlist__button">
+            <span>Criar playlist</span>
+          </button>
+        </div>
+      </section>
+
+      <div class="cookies"><a href="#">Cookies</a></div>
+
+      <div class="languages">
+        <button class="languages__button">
+          <i class="fa-solid fa-globe"></i> Português do Brasil
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <main>
+    <div class="main-container">
+      <nav class="header__navigation">
+        <div class="navigation">
+          <button class="arrow-left">
+            <img src="./src/assets/icons/small-left.png" alt="arrow left">
+          </button>
+          <button class="arrow-right">
+            <img src="./src/assets/icons/small-right.png" alt="arrow right">
+          </button>
+        </div>
+        <div class="header__search">
+          <img src="./src/assets/icons/search.png" alt="">
+          <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?">
+        </div>
+        <div class="header__login">
+          <button class="subscribe">Inscreva-se</button>
+          <button class="login">Entrar</button>
+        </div>
+
+      </nav>
+    </div>
+  </main>
+
+  <footer class="disclaimer">
+    <div class="disclaimer__content">
+      <h3 class="text title">Testar o Premium de graça</h3>
+      <p class="text subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
+        precisa de cartão de
+        crédito.</p>
+    </div>
+    <button class="disclaimer__button">
+      <span>Inscreva-se grátis</span>
+    </button>
+  </footer>
+</body>
+
+</html>
